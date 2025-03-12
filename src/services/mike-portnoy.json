@@ -1,0 +1,67 @@
+{
+  "band_member": {
+    "name": "Mike Portnoy",
+    "role": "Drums",
+    "tenure": "1985–2010, 2023–present",
+    "bio": {
+      "overview": "Mike Portnoy is a founding member and former drummer of the progressive metal band Dream Theater, renowned for his technical mastery, complex time signatures, and innovative drumming style.",
+      "extended_bio": [
+        "Co-founded Dream Theater at Berklee College of Music in 1985 with John Petrucci and John Myung",
+        "Played on iconic albums including Images and Words, Metropolis Pt. 2: Scenes from a Memory, and Black Clouds & Silver Linings",
+        "Rejoined Dream Theater in 2023 for their 40th-anniversary tour"
+      ]
+    },
+    "social_links": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/mikeportnoyofficial/"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/mikeportnoy/"
+      }
+    ],
+    "gear": {
+      "logos": [
+        {
+          "brand": "Tama",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/tama-logo.png"
+        },
+        {
+          "brand": "Sabian",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/sabian-logo.png"
+        }
+      ],
+      "studio": [
+        "Tama Starclassic Maple Drums",
+        "Sabian Cymbals",
+        "Promark Drumsticks",
+        "Remo Drumheads"
+      ],
+      "live": [
+        "Tama Starclassic Maple Drums",
+        "Sabian Cymbals",
+        "Promark Signature Drumsticks",
+        "Porter & Davies Tactile Monitoring System"
+      ]
+    },
+    "images": {
+      "profile": "https://dreamtheater.net/wp-content/uploads/2017/07/mike-portnoy.jpg",
+      "featured": "https://dreamtheater.net/wp-content/uploads/2024/10/Mike-Portnoy-Featured.webp",
+      "background": "https://dreamtheater.net/wp-content/uploads/2024/10/CleanShot-2024-10-08-at-12.37.02@2x.jpg"
+    },
+    "trivia": {
+      "did_you_know": "Portnoy holds the record for most Grammy nominations (11) without a win before finally winning in 2024."
+    },
+    "endorsements": [
+      "Tama",
+      "Sabian",
+      "Promark"
+    ]
+  },
+  "page_metadata": {
+    "last_updated": "2024-10-08T18:35:28+00:00",
+    "canonical_url": "https://dreamtheater.net/band-member/mike-portnoy/",
+    "schema_type": "BandMemberPage"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "band_member": {
+    "name": "Charlie Dominici",
+    "role": "Vocals",
+    "tenure": "1987-1989",
+    "bio": {
+      "overview": "Charlie Dominici was the original lead singer of Dream Theater, contributing to their early development and first official album 'When Dream and Day Unite'.",
+      "extended_bio": [
+        "Joined Dream Theater (then called Majesty) in 1987 as their first official vocalist",
+        "Recorded vocals for the band's debut album 'When Dream and Day Unite' (1989)",
+        "Left the band in 1989 due to creative differences, later pursuing solo projects"
+      ]
+    },
+    "social_links": [],
+    "gear": {
+      "logos": [],
+      "studio": [
+        "Shure Microphones",
+        "Analog Recording Equipment"
+      ],
+      "live": [
+        "Handheld Microphones",
+        "Basic Stage Monitoring"
+      ]
+    },
+    "images": {
+      "profile": "https://dreamtheater.net/wp-content/uploads/2017/07/charlie-dominici.jpg",
+      "featured": "https://dreamtheater.net/wp-content/uploads/2024/10/Charlie-Dominici-Featured.webp",
+      "background": "https://dreamtheater.net/wp-content/uploads/2024/10/CleanShot-2024-10-08-at-12.37.02@2x.jpg"
+    },
+    "trivia": {
+      "did_you_know": "Dominici returned to collaborate with Dream Theater members on a progressive rock trilogy decades after leaving the band."
+    },
+    "endorsements": []
+  },
+  "page_metadata": {
+    "last_updated": "2024-10-08T18:35:28+00:00",
+    "canonical_url": "https://dreamtheater.net/band-member/charlie-dominici/",
+    "schema_type": "BandMemberPage"
+  }
+}

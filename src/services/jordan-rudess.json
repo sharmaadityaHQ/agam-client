@@ -1,0 +1,71 @@
+{
+  "band_member": {
+    "name": "Jordan Rudess",
+    "role": "Keyboards",
+    "tenure": "1999-present",
+    "bio": {
+      "overview": "Voted 'Best Keyboardist of All Time' by Music Radar Magazine, Jordan Rudess is best known as the keyboardist/multi-instrumentalist for Dream Theater.",
+      "extended_bio": [
+        "Began classical piano training at Juilliard School at age 9, later transitioning to progressive rock",
+        "Joined Dream Theater in 1999, appearing on all albums from Metropolis Pt. 2: Scenes from a Memory onward",
+        "Developed popular music apps like GeoShred and maintains an active solo career"
+      ]
+    },
+    "social_links": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/jordanrudessofficial/"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/jcrudess/"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/Jcrudess"
+      }
+    ],
+    "gear": {
+      "logos": [
+        {
+          "brand": "Korg",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/korg-1.png"
+        },
+        {
+          "brand": "Kurzweil",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/kurzweil-logo.png"
+        }
+      ],
+      "studio": [
+        "Korg Kronos Workstation",
+        "Kurzweil PC4 Keyboard",
+        "Roli Seaboard",
+        "GeoShred iPad App"
+      ],
+      "live": [
+        "Korg Kronos Workstation",
+        "Kurzweil PC4 Keyboard",
+        "iPad with GeoShred",
+        "Custom Keyboard Stand"
+      ]
+    },
+    "images": {
+      "profile": "https://dreamtheater.net/wp-content/uploads/2017/07/jordan-rudess.jpg",
+      "featured": "https://dreamtheater.net/wp-content/uploads/2024/10/Jordan-Rudess-Featured.webp",
+      "background": "https://dreamtheater.net/wp-content/uploads/2024/10/CleanShot-2024-10-08-at-12.37.02@2x.jpg"
+    },
+    "trivia": {
+      "did_you_know": "Rudess developed the first iPhone app to feature a sample-accurate guitar amp simulator."
+    },
+    "endorsements": [
+      "Korg",
+      "Kurzweil",
+      "Roli"
+    ]
+  },
+  "page_metadata": {
+    "last_updated": "2024-10-08T18:35:28+00:00",
+    "canonical_url": "https://dreamtheater.net/band-member/jordan-rudess/",
+    "schema_type": "BandMemberPage"
+  }
+}

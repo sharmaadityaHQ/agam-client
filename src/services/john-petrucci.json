@@ -1,0 +1,70 @@
+{
+  "band_member": {
+    "name": "John Petrucci",
+    "role": "Guitar",
+    "tenure": "1985-present",
+    "bio": {
+      "overview": "John Petrucci is a founding member of Dream Theater and one of the most respected guitarists in progressive metal. Known for his technical prowess, precision, and compositional skills, Petrucci has been a driving force behind Dream Theater's sound since the band's inception.",
+      "extended_bio": [
+        "Co-founded Dream Theater at Berklee College of Music in 1985 with John Myung and Mike Portnoy",
+        "11-time Grammy nominee and recipient of numerous 'Best Guitarist' awards from music publications",
+        "Designed signature Ernie Ball Music Man guitars used by musicians worldwide"
+      ]
+    },
+    "social_links": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/johnpetrucciofficial"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/johnpetrucciofficial"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/JPetrucci"
+      }
+    ],
+    "gear": {
+      "logos": [
+        {
+          "brand": "Ernie Ball Music Man",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/music-man-logo.png"
+        },
+        {
+          "brand": "Mesa/Boogie",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/mesa-boogie-logo.png"
+        }
+      ],
+      "studio": [
+        "Ernie Ball Music Man JP Signature Series Guitars",
+        "Mesa/Boogie JP-2C Signature Amplifier",
+        "TC Electronic Effects",
+        "DiMarzio Pickups"
+      ],
+      "live": [
+        "Ernie Ball Music Man Majesty Guitars",
+        "Mesa/Boogie JP-2C Signature Amplifier",
+        "Fractal Audio Axe-Fx III"
+      ]
+    },
+    "images": {
+      "profile": "https://dreamtheater.net/wp-content/uploads/2017/07/john-petrucci.jpg",
+      "featured": "https://dreamtheater.net/wp-content/uploads/2024/10/John-Petrucci-Featured.webp",
+      "background": "https://dreamtheater.net/wp-content/uploads/2024/10/CleanShot-2024-10-08-at-12.37.02@2x.jpg"
+    },
+    "trivia": {
+      "did_you_know": "Petrucci composed Dream Theater's 42-minute epic 'A Change of Seasons' in just three weeks."
+    },
+    "endorsements": [
+      "Ernie Ball Music Man",
+      "Mesa/Boogie",
+      "DiMarzio"
+    ]
+  },
+  "page_metadata": {
+    "last_updated": "2024-10-08T18:35:28+00:00",
+    "canonical_url": "https://dreamtheater.net/band-member/john-petrucci/",
+    "schema_type": "BandMemberPage"
+  }
+}

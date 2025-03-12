@@ -1,0 +1,56 @@
+{
+  "band_member": {
+    "name": "John Myung",
+    "role": "Bass",
+    "tenure": "1985-present",
+    "bio": {
+      "overview": "John Myung is a founding member of Dream Theater, renowned for his technical bass playing and integral role in shaping the band's progressive metal sound.",
+      "extended_bio": [
+        "Born in Chicago, Illinois, to Korean parents, Myung grew up in Kings Park, Long Island, New York.",
+        "Co-founded Dream Theater at Berklee College of Music in 1985 with John Petrucci and Mike Portnoy.",
+        "Known for his virtuosic playing style and use of extended-range basses in progressive metal."
+      ]
+    },
+    "social_links": [],
+    "gear": {
+      "logos": [
+        {
+          "brand": "Music Man",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/music-man-logo.png"
+        },
+        {
+          "brand": "Mesa/Boogie",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/mesa-boogie-logo.png"
+        }
+      ],
+      "studio": [
+        "Music Man Bongo 6 Bass",
+        "Yamaha Basses",
+        "Mesa/Boogie Bass Amplification"
+      ],
+      "live": [
+        "Music Man Bongo 6 Bass",
+        "Mesa/Boogie Bass Amplification",
+        "Custom Effects Pedalboard"
+      ]
+    },
+    "images": {
+      "profile": "https://dreamtheater.net/wp-content/uploads/2017/07/john-myung.jpg",
+      "featured": "https://dreamtheater.net/wp-content/uploads/2024/10/John-Myung-Featured.webp",
+      "background": "https://dreamtheater.net/wp-content/uploads/2024/10/CleanShot-2024-10-08-at-12.37.02@2x.jpg"
+    },
+    "trivia": {
+      "did_you_know": "John Myung is known as 'The Silent Master' due to his quiet stage presence despite his technical prowess."
+    },
+    "endorsements": [
+      "Music Man",
+      "Mesa/Boogie",
+      "Dunlop"
+    ]
+  },
+  "page_metadata": {
+    "last_updated": "2024-10-08T18:35:28+00:00",
+    "canonical_url": "https://dreamtheater.net/band-member/john-myung/",
+    "schema_type": "BandMemberPage"
+  }
+}

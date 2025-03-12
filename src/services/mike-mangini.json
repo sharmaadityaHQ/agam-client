@@ -1,0 +1,66 @@
+{
+  "band_member": {
+    "name": "Mike Mangini",
+    "role": "Drums",
+    "tenure": "2011–2023",
+    "bio": {
+      "overview": "Mike Mangini is an American drummer known for his work with Dream Theater from 2011 to 2023, bringing technical precision and dynamic energy to the band's recordings and live performances.",
+      "extended_bio": [
+        "Former Berklee College of Music faculty member who held five World's Fastest Drummer titles",
+        "Joined Dream Theater in 2011 after an extensive audition process documented in the 'The Spirit Carries On' film",
+        "Contributed to albums from A Dramatic Turn of Events (2011) to A View from the Top of the World (2021)"
+      ]
+    },
+    "social_links": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/mikemangini/"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/mikemangini/"
+      }
+    ],
+    "gear": {
+      "logos": [
+        {
+          "brand": "Pearl",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/pearl-logo.png"
+        },
+        {
+          "brand": "Zildjian",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/zildjian-logo.png"
+        }
+      ],
+      "studio": [
+        "Pearl Drums",
+        "Zildjian Cymbals",
+        "Vater Drumsticks",
+        "Remo Drumheads"
+      ],
+      "live": [
+        "Pearl Masterworks Drums",
+        "Zildjian Cymbals",
+        "Vater Signature Drumsticks"
+      ]
+    },
+    "images": {
+      "profile": "https://dreamtheater.net/wp-content/uploads/2017/07/mike-mangini.jpg",
+      "featured": "https://dreamtheater.net/wp-content/uploads/2024/10/Mike-Mangini-Featured.webp",
+      "background": "https://dreamtheater.net/wp-content/uploads/2024/10/CleanShot-2024-10-08-at-12.37.02@2x.jpg"
+    },
+    "trivia": {
+      "did_you_know": "Mangini performed a 7-minute drum solo during his Dream Theater audition that became legendary among fans."
+    },
+    "endorsements": [
+      "Pearl",
+      "Zildjian",
+      "Vater"
+    ]
+  },
+  "page_metadata": {
+    "last_updated": "2024-10-08T18:35:28+00:00",
+    "canonical_url": "https://dreamtheater.net/band-member/mike-mangini/",
+    "schema_type": "BandMemberPage"
+  }
+}

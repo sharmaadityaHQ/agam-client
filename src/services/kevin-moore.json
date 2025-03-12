@@ -1,0 +1,61 @@
+{
+  "band_member": {
+    "name": "Kevin Moore",
+    "role": "Keyboards",
+    "tenure": "1986-1994",
+    "bio": {
+      "overview": "Kevin Moore is an American keyboardist, composer, and founding member of the progressive metal band Dream Theater. Known for his atmospheric playing and thought-provoking lyrics, Moore contributed to Dream Theater's early albums including Images and Words and Awake.",
+      "extended_bio": [
+        "Joined Dream Theater in 1986 and played on their debut album 'When Dream and Day Unite'",
+        "Key contributor to the band's breakthrough album 'Images and Words' (1992)",
+        "Left the band in 1994 to pursue solo projects and experimental music",
+        "Founded the progressive metal supergroup OSI with Jim Matheos and Mike Portnoy"
+      ]
+    },
+    "social_links": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/KevinMooreOfficial/"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/kevnmoore"
+      }
+    ],
+    "gear": {
+      "logos": [
+        {
+          "brand": "Kurzweil",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/kurzweil-logo.png"
+        }
+      ],
+      "studio": [
+        "Kurzweil K2000",
+        "Roland JD-800",
+        "Korg M1",
+        "Various Analog Synthesizers"
+      ],
+      "live": [
+        "Kurzweil K2000",
+        "Roland JD-800",
+        "Korg M1"
+      ]
+    },
+    "images": {
+      "profile": "https://dreamtheater.net/wp-content/uploads/2017/07/kevinmoore.jpg",
+      "featured": "https://dreamtheater.net/wp-content/uploads/2024/10/Kevin-Moore-Featured.webp",
+      "background": "https://dreamtheater.net/wp-content/uploads/2024/10/CleanShot-2024-10-08-at-12.37.02@2x.jpg"
+    },
+    "trivia": {
+      "did_you_know": "Moore wrote the lyrics for 'Pull Me Under', Dream Theater's most commercially successful song."
+    },
+    "endorsements": [
+      "Kurzweil"
+    ]
+  },
+  "page_metadata": {
+    "last_updated": "2024-10-08T18:35:28+00:00",
+    "canonical_url": "https://dreamtheater.net/band-member/kevin-moore/",
+    "schema_type": "BandMemberPage"
+  }
+}

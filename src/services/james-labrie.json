@@ -1,0 +1,68 @@
+{
+  "band_member": {
+    "name": "James LaBrie",
+    "role": "Vocals",
+    "tenure": "1991-present",
+    "bio": {
+      "overview": "James LaBrie is one of the most recognizable and highly acclaimed vocalists in the progressive rock and metal world, best known as the powerful and dynamic voice of Dream Theater.",
+      "extended_bio": [
+        "Born on May 5, 1963, in Penetanguishene, Ontario, Canada, LaBrie began his musical career in various local bands before joining Dream Theater in 1991.",
+        "Known for his wide vocal range and emotional delivery, LaBrie has contributed to all Dream Theater albums from Images and Words (1992) to the present.",
+        "Has released several solo albums and collaborated with other artists including Trent Gardner and Matt Guillory."
+      ]
+    },
+    "social_links": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/officialjameslabrie/"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/jameslabrie.dt/"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/jameslabrie"
+      }
+    ],
+    "gear": {
+      "logos": [
+        {
+          "brand": "Shure",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/shure-logo.png"
+        },
+        {
+          "brand": "Ultimate Ears",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/ultimate-ears-logo.png"
+        }
+      ],
+      "studio": [
+        "Shure Wireless Microphone Systems",
+        "Neumann Studio Microphones",
+        "Custom In-Ear Monitors"
+      ],
+      "live": [
+        "Shure Wireless Microphone Systems",
+        "Ultimate Ears In-Ear Monitors",
+        "Vocal Effects Processors"
+      ]
+    },
+    "images": {
+      "profile": "https://dreamtheater.net/wp-content/uploads/2017/07/james-labrie.jpg",
+      "featured": "https://dreamtheater.net/wp-content/uploads/2024/10/James-LaBrie-Featured.webp",
+      "background": "https://dreamtheater.net/wp-content/uploads/2024/10/CleanShot-2024-10-08-at-12.37.02@2x.jpg"
+    },
+    "trivia": {
+      "did_you_know": "James LaBrie survived a serious vocal cord injury in 1994 through intensive therapy and retraining of his singing technique."
+    },
+    "endorsements": [
+      "Shure",
+      "Ultimate Ears"
+    ]
+  },
+  "page_metadata": {
+    "last_updated": "2024-10-08T18:35:28+00:00",
+    "canonical_url": "https://dreamtheater.net/band-member/james-labrie/",
+    "schema_type": "BandMemberPage"
+  }
+}

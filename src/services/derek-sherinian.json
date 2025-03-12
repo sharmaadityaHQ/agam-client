@@ -1,0 +1,75 @@
+{
+  "band_member": {
+    "name": "Derek Sherinian",
+    "role": "Keyboards",
+    "tenure": "1994-1999",
+    "bio": {
+      "overview": "American keyboardist known for his technical proficiency and fusion influences. Member of Dream Theater during their progressive metal peak, appearing on albums from A Change of Seasons (1995) to Scenes from a Memory (1999).",
+      "extended_bio": [
+        "Born on August 25, 1966, in Laguna Beach, California, Sherinian began his musical journey at a young age, showing a particular affinity for keyboards and a passion for blending various musical styles.",
+        "Gained significant recognition as a member of Dream Theater, where he showcased his virtuosic playing on the band's 1994 album Falling Into Infinity.",
+        "Founded progressive fusion group Planet X with complex compositions",
+        "Collaborated with artists like Alice Cooper, Billy Idol, and KISS after leaving Dream Theater",
+        "His dynamic keyboard work and innovative compositions played a key role in shaping Dream Theater's sound during his tenure"
+      ]
+    },
+    "social_links": [
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/DerekSherinianArg/"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/dereksherinianofficial/"
+      }
+    ],
+    "gear": {
+      "logos": [
+        {
+          "brand": "Korg",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/korg-1.png"
+        },
+        {
+          "brand": "Hammond",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/hammond.png"
+        },
+        {
+          "brand": "Moog",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/moog.png"
+        },
+        {
+          "brand": "Roland",
+          "logo_url": "https://dreamtheater.net/wp-content/uploads/2017/09/roland-1.png"
+        }
+      ],
+      "studio": [
+        "Korg Trinity",
+        "Hammond B3 Organ",
+        "Moog Synthesizers",
+        "Various Software Synthesizers"
+      ],
+      "live": [
+        "Korg Trinity",
+        "Hammond B3 Organ",
+        "Moog Synthesizers"
+      ]
+    },
+    "images": {
+      "profile": "https://dreamtheater.net/wp-content/uploads/2017/07/derek.jpg",
+      "featured": "https://dreamtheater.net/wp-content/uploads/2024/10/Derek-Sherinian-Featured.webp",
+      "background": "https://dreamtheater.net/wp-content/uploads/2024/10/CleanShot-2024-10-08-at-12.37.02@2x.jpg"
+    },
+    "trivia": {
+      "did_you_know": "Derek Sherinian is often referred to as the 'Caligula of Keyboards' due to his aggressive and powerful playing style."
+    },
+    "endorsements": [
+      "Korg",
+      "Hammond"
+    ]
+  },
+  "page_metadata": {
+    "last_updated": "2024-10-08T18:35:28+00:00",
+    "canonical_url": "https://dreamtheater.net/band-member/derek-sherinian/",
+    "schema_type": "BandMemberPage"
+  }
+}
