@@ -10,11 +10,14 @@ const EventCard = ({ date, venueName, venueLocation, vipLink, soldOutLink }: {
 }) => {
     console.log('EventCard', { vipLink, soldOutLink });
     return (
-        <div className="relative w-full lg:w-[33.33%] bg-gray-800 text-white p-6 rounded-2xl shadow-lg">
+        <div className="relative w-full lg:w-[33.33%] text-white p-4 shadow-lg flex md:flex-row flex-col justify-between" style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.2)' }}>
             {/* Event Description Section */}
-            <div className="mb-4 flex flex-col items-center">
+            <div className="mb-4 flex flex-col items-center md:items-start">
                 <div className="text-lg">{date}</div>
                 <div className="text-lg">{venueName}</div>
+                {/* <div className="text-lg">{venueLocation}</div> */}
+            </div>
+            <div className="mb-4 flex flex-col items-center md:items-start">
                 <div className="text-lg">{venueLocation}</div>
             </div>
 

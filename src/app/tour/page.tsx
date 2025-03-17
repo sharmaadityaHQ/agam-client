@@ -14,19 +14,11 @@ const News = () => {
                         text="Dream Theater"
                         timestamp="40th Anniversary Tour"
                         textClassName="!font-bold"
-                        containerClassName="lg:w-[45%] xl:w-[30%]"
+                        containerClassName=""
                     />
-                    <div className="w-[88%]">
-                        <p className="text-[60px] text-center text-white font-bold leading-[85px] tracking-[9px]">
-                            NEWS
-                        </p>
-                        <p className="uppercase text-[20px] text-center text-white font-normal leading-[28px] tracking-[3px] mt-[20px]">
-                            Stay up to date with all things Dream Theater
-                        </p>
-                    </div>
                 </div>
                 <div className="flex justify-center mt-[60px]">
-                    <div className="flex flex-wrap justify-center gap-[45px] w-full max-w-[90%]">
+                    <div className="flex flex-wrap justify-center w-full max-w-[90%]">
                         <TourEventCard
                             date={"March 20, 2025"}
                             venueName={"The Fillmore Miami Beach"}
@@ -81,6 +73,19 @@ const News = () => {
                             soldOutLink={"https://dreamtheater.net/sold-out"} // Sold Out link
 
                         />
+                        <div className="w-[88%]">
+
+                            <p className="uppercase text-[20px] text-center text-white font-normal leading-[28px] tracking-[3px] mt-[20px]">
+
+                                Get notified when new events are announced in your area
+
+                            </p>
+                            <p className="mt-[4rem] mb-[2.5rem] uppercase text-[20px] text-center text-white font-normal leading-[28px] tracking-[3px] mt-[20px]">
+
+                                Photos from the road
+
+                            </p>
+                        </div>
                         <TourImageCard
                             image="https://dreamtheater.net/wp-content/uploads/2024/10/DT-EDMONTON-10.jpg"
                             text="Dream Theater"
