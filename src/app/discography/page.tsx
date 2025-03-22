@@ -104,13 +104,13 @@ const Discography = () => {
             {filteredAlbums.map((album, index) => (
               <div
                 key={index}
-                className="relative w-full h-[350px] md:h-[450px] md:w-[48%] xl:h-[550px] lg:w-[30%]"
+                className="relative w-full h-[350px] md:h-[450px] md:w-[48%] xl:h-[550px] lg:w-[30%] overflow-hidden"
               >
                 <Image
                   src={album.image}
                   alt="album cover"
                   fill
-                  className="object-cover"
+                  className="object-cover transition-all duration-1000 hover:scale-110 hover:brightness-75"
                 />
               </div>
             ))}
