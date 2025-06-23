@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-// template - card with image, text on top of image
+// card with image and text on top of image
 
 const Card1 = ({
   image,
@@ -27,17 +27,18 @@ const Card1 = ({
       />
       <div className="absolute left-[25px] bottom-[25px] max-w-[85%]">
         <p
-          className={`uppercase text-[21px] font-normal text-white leading-[25px] tracking-[3px] ${textClassName}`}
+          className={`uppercase text-[21px] font-medium text-white leading-[25px] tracking-[3px] ${textClassName}`}
         >
           {text}
         </p>
         <div className="flex items-center mt-[20px]">
-          <span className="uppercase text-[12px] font-normal text-white leading-[14.4px] tracking-[1.8px]">
+          <span className="uppercase text-[12px] font-medium text-white leading-[14.4px] tracking-[1.8px]">
             {timestamp}
           </span>
-          <span className="text-[12px] font-medium text-white leading-[12px] tracking-[1.8px] ml-[12px]">
+          {/* TODO: enable after news page is live */}
+          {/* <span className="text-[12px] font-medium text-white leading-[12px] tracking-[1.8px] ml-[12px]">
             READ MORE
-          </span>
+          </span> */}
         </div>
       </div>
     </div>

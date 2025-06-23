@@ -1,5 +1,5 @@
-import Card1 from "../ui/Card1";
-import PageContainer from "../ui/PageContainer";
+import Card1 from "../components/Card1";
+import PageContainer from "../components/PageContainer";
 
 const News = () => {
   return (

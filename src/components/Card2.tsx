@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from "./Button";
 
-// template - card with image, text, cta
+// card with image, text and cta
 
 const Card2 = ({
   image,
