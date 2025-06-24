@@ -37,6 +37,7 @@ const Header = () => {
     <div className="flex justify-between items-center">
       <Link href="/">
         <Image
+          priority
           src="/agam_logo.webp"
           alt="agam logo"
           width={55}
