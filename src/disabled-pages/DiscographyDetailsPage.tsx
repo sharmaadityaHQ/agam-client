@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+// import { useState } from "react";
 import Image from "next/image";
 import PageContainer from "../components/PageContainer";
 import Button from "../components/Button";
@@ -17,6 +17,7 @@ interface BandMember {
   image: string;
 }
 
+/*
 const tracks: TrackList[] = [
   { title: "In the Arms of a Nightmare", duration: "09:22" },
   { title: "Alien Race", duration: "08:35" },
@@ -51,9 +52,10 @@ const bandMembers: BandMember[] = [
     image: "/images/mike-portnoy.jpg",
   },
 ];
+*/
 
 const Albulgetails = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
+  //   const [isPlaying, setIsPlaying] = useState(false);
 
   return (
     <PageContainer>

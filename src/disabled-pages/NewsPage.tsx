@@ -23,6 +23,7 @@ const News = () => {
               timestamp="January 22, 2025  /"
               textClassName="!font-bold"
               containerClassName="lg:w-[45%] xl:w-[30%]"
+              link="https://www.youtube.com/watch?v=0ck1e1F8qU0"
             />
             <Card1
               image="https://dreamtheater.net/wp-content/uploads/2024/12/DreamTheater_ABrokenMan_SingleCover_Embargo_03122024-copy-scaled.jpg"
@@ -30,6 +31,7 @@ const News = () => {
               timestamp="December 3, 2024  /"
               textClassName="!font-bold"
               containerClassName="lg:w-[45%] xl:w-[30%]"
+              link="https://www.youtube.com/watch?v=0ck1e1F8qU0"
             />
             <Card1
               image="https://dreamtheater.net/wp-content/uploads/2024/10/Parasomnia_Crop.jpg"
@@ -37,6 +39,7 @@ const News = () => {
               timestamp="October 9, 2024  /"
               textClassName="!font-bold"
               containerClassName="lg:w-[45%] xl:w-[30%]"
+              link="https://www.youtube.com/watch?v=0ck1e1F8qU0"
             />
             <Card1
               image="https://dreamtheater.net/wp-content/uploads/2024/09/CleanShot-2024-10-10-at-14.40.32@2x.jpg"
@@ -44,6 +47,7 @@ const News = () => {
               timestamp="September 10, 2024  /"
               textClassName="!font-bold"
               containerClassName="lg:w-[45%] xl:w-[30%]"
+              link="https://www.youtube.com/watch?v=0ck1e1F8qU0"
             />
             <Card1
               image="https://dreamtheater.net/wp-content/uploads/2024/10/CleanShot-2024-06-24-at-15.42.00@2x.jpg"
@@ -51,6 +55,7 @@ const News = () => {
               timestamp="June 24, 2024  /"
               textClassName="!font-bold"
               containerClassName="lg:w-[45%] xl:w-[30%]"
+              link="https://www.youtube.com/watch?v=0ck1e1F8qU0"
             />
             <Card1
               image="https://dreamtheater.net/wp-content/uploads/2024/10/3_Cities_IG_Feed1_DT_Brazil_Tour_2024.jpg"
@@ -58,6 +63,7 @@ const News = () => {
               timestamp="May 14, 2024  /"
               textClassName="!font-bold"
               containerClassName="lg:w-[45%] xl:w-[30%]"
+              link="https://www.youtube.com/watch?v=0ck1e1F8qU0"
             />
             <Card1
               image="https://dreamtheater.net/wp-content/uploads/2024/04/DT40-Background-Square.jpg"
@@ -65,6 +71,7 @@ const News = () => {
               timestamp="April 8, 2024  /"
               textClassName="!font-bold"
               containerClassName="lg:w-[45%] xl:w-[30%]"
+              link="https://www.youtube.com/watch?v=0ck1e1F8qU0"
             />
             <Card1
               image="https://dreamtheater.net/wp-content/uploads/2024/03/CleanShot-2024-03-22-at-11%E2%80%AF.01.40@2x-scaled.jpg"
@@ -72,6 +79,7 @@ const News = () => {
               timestamp="February 9, 2024  /"
               textClassName="!font-bold"
               containerClassName="lg:w-[45%] xl:w-[30%]"
+              link="https://www.youtube.com/watch?v=0ck1e1F8qU0"
             />
             <Card1
               image="https://dreamtheater.net/wp-content/uploads/2024/10/DT-collagepic.jpg"
@@ -79,6 +87,7 @@ const News = () => {
               timestamp="November 17, 2023  /"
               textClassName="!font-bold"
               containerClassName="lg:w-[45%] xl:w-[30%]"
+              link="https://www.youtube.com/watch?v=0ck1e1F8qU0"
             />
           </div>
         </div>
