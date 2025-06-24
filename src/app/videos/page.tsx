@@ -159,7 +159,7 @@ const Videos = () => {
           ))}
         </div> */}
 
-        <div className="flex justify-center mt-[60px]">
+        <div className="flex justify-center mt-[60px] lg:mt-[120px]">
           <div className="flex flex-wrap justify-center gap-[20px] w-full mx-[20px] lg:mx-[40px]">
             {videos.map((video, index) => (
               <div
