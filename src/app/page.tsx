@@ -19,16 +19,16 @@ const Home = () => {
         />
         <div className="absolute bg-[#00000080] w-full h-full" />
         <div className="flex flex-col w-[85%] items-center z-[1]">
-          <p className="text-[45px] text-white text-center font-semibold leading-[45px] tracking-[6px]">
+          <p className="text-[45px] text-white text-center font-semibold leading-[45px] tracking-[6px] lg:text-[100px] lg:leading-[100px] lg:tracking-[8px]">
             AGAM
           </p>
-          <p className="text-[23px] text-white text-center font-medium leading-[23px] tracking-[6.5px] mt-[40px]">
+          <p className="text-[23px] text-white text-center font-medium leading-[23px] tracking-[6.5px] mt-[40px] lg:text-[45px] lg:leading-[45px] lg:tracking-[8px]">
             ARRIVAL OF THE ETHEREAL
           </p>
-          <p className="text-[12px] text-white text-center font-normal leading-[17px] tracking-[5px] mt-[20px]">
+          <p className="text-[12px] text-white text-center font-normal leading-[17px] tracking-[5px] mt-[20px] lg:text-[30px] lg:leading-[30px] lg:tracking-[6.5px]">
             NEW ALBUM OUT NOW
           </p>
-          <Button className="mt-[40px]">
+          <Button className="mt-[40px] lg:text-[20px] lg:px-[30px] lg:py-[20px]">
             <Link href="https://youtu.be/0ck1e1F8qU0" target="_blank">
               WATCH NOW
             </Link>
@@ -40,31 +40,34 @@ const Home = () => {
           image="/agam_news_1.webp"
           text="AGAM unveils their new album, ‘Arrival of the Ethereal’ at a charity concert in Bengaluru"
           timestamp="June 12, 2025"
+          link="https://www.thehindu.com/entertainment/movies/carnatic-progressive-rock-band-agam-talks-about-their-third-studio-album/article69679476.ece"
         />
         <Card1
           image="/agam_news_2.webp"
           text="AGAM performing at the Music Academy, Chennai for Aikya’s fundraiser"
           timestamp="March 11, 2024"
+          link="https://www.thehindu.com/entertainment/music/how-agams-music-is-beyond-labels-yet-loved-by-people/article67938504.ece"
         />
         <Card1
           image="/agam_news_3.webp"
           text="A pool of niche sounds"
           timestamp="July 13, 2017"
+          link="https://www.thehindu.com/entertainment/music/a-pool-of-niche-sounds/article19270693.ece"
         />
       </div>
       <div className="relative flex flex-col h-[100vh] items-center justify-center">
         <VideoPlayer videoUrl="/agam_home_video.mp4" className="absolute" />
         <div className="flex flex-col w-[85%] items-center z-[1]">
-          <p className="text-[45px] text-white text-center font-semibold leading-[45px] tracking-[6px]">
+          <p className="text-[45px] text-white text-center font-semibold leading-[45px] tracking-[6px] lg:text-[100px] lg:leading-[100px] lg:tracking-[8px]">
             AGAM
           </p>
-          <p className="text-[23px] text-white text-center font-medium leading-[23px] tracking-[6.5px] mt-[35px]">
+          <p className="text-[23px] text-white text-center font-medium leading-[23px] tracking-[6.5px] mt-[35px] lg:text-[45px] lg:leading-[45px] lg:tracking-[8px]">
             THE SILENCE THAT REMAINS
           </p>
-          <p className="text-[16px] text-white text-center font-normal leading-[22.6px] tracking-[4px] mt-[20px]">
+          <p className="text-[16px] text-white text-center font-normal leading-[22.6px] tracking-[4px] mt-[20px] lg:text-[30px] lg:leading-[30px] lg:tracking-[6.5px]">
             NEW MUSIC VIDEO OUT NOW
           </p>
-          <Button className="mt-[30px]">
+          <Button className="mt-[30px] lg:text-[20px] lg:px-[30px] lg:py-[20px]">
             <Link href="https://youtu.be/0ck1e1F8qU0" target="_blank">
               WATCH NOW
             </Link>
@@ -74,16 +77,16 @@ const Home = () => {
       <div className="flex justify-center mt-[15vh]">
         <div className="flex flex-wrap items-center gap-[50px] max-w-[85%] lg:gap-[150px]">
           <div className="flex flex-col items-center w-full xl:w-[42%]">
-            <p className="text-[12px] text-white text-center font-normal leading-[12px] tracking-[4.2px]">
+            <p className="text-[12px] text-white text-center font-normal leading-[12px] tracking-[4.2px] lg:text-[20px] lg:leading-[20px] lg:tracking-[6px]">
               THE NEW ALBUM
             </p>
-            <p className="text-[23px] text-[#acacaa] text-center font-normal leading-[23px] tracking-[8px] mt-[20px]">
+            <p className="text-[23px] text-[#acacaa] text-center font-normal leading-[23px] tracking-[8px] mt-[20px] lg:text-[45px] lg:leading-[45px] lg:tracking-[8px] lg:mt-[30px]">
               ARRIVAL OF THE ETHEREAL
             </p>
-            <p className="text-[12px] text-white text-center font-normal leading-[17px] tracking-[3.6px] mt-[12px]">
+            <p className="text-[12px] text-white text-center font-normal leading-[17px] tracking-[3.6px] mt-[12px] lg:text-[20px] lg:leading-[20px] lg:tracking-[6px] lg:mt-[25px]">
               OUT NOW
             </p>
-            <p className="text-[14px] text-[#acacaa] text-center font-normal leading-[21.2px] mt-[20px]">
+            <p className="text-[14px] text-[#acacaa] text-center font-normal leading-[21.2px] mt-[20px] lg:text-[18px] lg:leading-[28px] lg:tracking-[6px] lg:mt-[40px]">
               It’s taken us eight years to get here. What started as scattered
               ideas became sleepless nights, quiet breakthroughs, and moments we
               almost gave up. We found strength in each other and in over 300
@@ -92,10 +95,10 @@ const Home = () => {
               to make it our own. This is the most personal thing we’ve ever
               made.
             </p>
-            <p className="text-[14px] text-[#acacaa] text-center font-normal leading-[21.2px] mt-[20px]">
+            <p className="text-[14px] text-[#acacaa] text-center font-normal leading-[21.2px] mt-[20px] lg:text-[18px] lg:leading-[18px] lg:tracking-[6px] lg:mt-[30px]">
               We’re so excited for you to experience it.
             </p>
-            <Button className="mt-[30px]">
+            <Button className="mt-[30px] lg:text-[20px] lg:px-[30px] lg:py-[20px]">
               <Link href="https://youtu.be/4hZMrzO2_XM" target="_blank">
                 WATCH NOW
               </Link>
@@ -167,7 +170,7 @@ const Home = () => {
         />
       </div>
       <div className="flex justify-center mt-[40px] mb-[100px] lg:mt-[80px]">
-        <Button>
+        <Button className="lg:text-[20px] lg:px-[30px] lg:py-[20px]">
           <Link
             href="https://in.bookmyshow.com/events/agam-arrival-of-the-ethereal-hyderabad/ET00450046"
             target="_blank"

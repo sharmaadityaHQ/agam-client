@@ -1,0 +1,25 @@
+.navToggle {
+  position: relative;
+  cursor: pointer;
+}
+
+.hamburger {
+  transition: transform 400ms ease-in-out;
+}
+
+.scaleDown {
+  transform: scale(0.2);
+}
+
+.bar {
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 3px 0;
+  background: white;
+
+  @media (min-width: 1024px) {
+    width: 30px;
+    margin: 5px 0;
+  }
+}

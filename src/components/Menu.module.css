@@ -1,0 +1,14 @@
+.closeButton {
+  animation: scaleUp 400ms ease-in-out forwards;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

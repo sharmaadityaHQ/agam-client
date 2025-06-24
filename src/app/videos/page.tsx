@@ -125,7 +125,7 @@ const Videos = () => {
 
   return (
     <PageContainer>
-      <div className="my-[15vh]">
+      <div className="my-[20vh]">
         <div className="flex flex-col items-center">
           <div className="w-[85%]">
             <p className="text-[30px] lg:text-[75px] text-center text-white font-bold leading-[120%] tracking-[3px]">
