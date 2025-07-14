@@ -6,37 +6,37 @@ const bandMembers = [
   {
     name: "Harish",
     role: "Vocals",
-    image: "/harish.webp",
+    image: "/band/harish.webp",
     link: "https://www.instagram.com/hsrkofficial",
   },
   {
     name: "Swamy",
     role: "Keyboards",
-    image: "/swamy.webp",
+    image: "/band/swamy.webp",
     link: "https://www.instagram.com/rainyharp",
   },
   {
     name: "Praveen",
     role: "Guitars",
-    image: "/praveen.webp",
+    image: "/band/praveen.webp",
     link: "https://www.instagram.com/praveen213",
   },
   {
     name: "Yadhunandan",
     role: "Drums",
-    image: "/yadhu.webp",
+    image: "/band/yadhu.webp",
     link: "https://www.instagram.com/drummachari",
   },
   {
     name: "Shiva",
     role: "Multi-Percussionist",
-    image: "/shiva.webp",
+    image: "/band/shiva.webp",
     link: "https://www.instagram.com/drummershiva",
   },
   {
     name: "Aditya Kashyap",
     role: "Bass",
-    image: "/aditya_kashyap.webp",
+    image: "/band/aditya_kashyap.webp",
     link: "https://www.instagram.com/aditya_kasyap",
   },
 ];

@@ -1,11 +1,11 @@
-## Agam client
+## agam-client
 
-Home of Agam, an Indian Carnatic progressive rock band based in Bangalore, Karnataka.
+home of Agam, an indian carnatic progressive rock band based in Bangalore, Karnataka.
 
-### Tech
+### tech
 
-The Agam client uses Next.js and Tailwind.
+the agam-client project uses Next.js and Tailwind.
 
-### Setup
+### setup
 
-Clone the project, run `npm i`, and then `npm run dev` to start the Agam client on your system.
+clone the project, run `npm ci`, and then `npm run dev` to start agam-client on your system.

@@ -22,7 +22,7 @@ const Card1 = ({
     <div
       className={`relative w-full h-[420px] lg:w-[33.33%] lg:h-[500px] ${containerClassName}`}
     >
-      <Link href={link} target="_blank">
+      <Link href={link}>
         <Image
           alt="card 1 image"
           src={image}
@@ -36,13 +36,13 @@ const Card1 = ({
             {text}
           </p>
           <div className="flex items-center mt-[20px]">
-            <span className="uppercase text-[12px] font-medium text-white leading-[14.4px] tracking-[1.8px]">
+            <span className="uppercase text-[13px] font-medium text-white leading-[14.4px] tracking-[1.8px]">
               {timestamp}
             </span>
-            {/* TODO: enable after news page is live */}
-            {/* <span className="text-[12px] font-medium text-white leading-[12px] tracking-[1.8px] ml-[12px]">
-            READ MORE
-          </span> */}
+            <span className="text-[13px] font-medium text-white leading-[14.4px] tracking-[1.8px] ml-[10px]">
+              / READ MORE
+            </span>
+            <img src="/arrow_icon.png" className="h-[8px] ml-[8px]" />
           </div>
         </div>
       </Link>

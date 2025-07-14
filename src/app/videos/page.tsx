@@ -14,103 +14,103 @@ interface Video {
 const videos: Video[] = [
   {
     title: "The Silence That Remains",
-    thumbnail: "/video_1.webp",
+    thumbnail: "/videos/video_1.webp",
     link: "https://youtu.be/0ck1e1F8qU0",
   },
   {
     title: "Teaser - The Silence That Remains",
-    thumbnail: "/video_2.webp",
+    thumbnail: "/videos/video_2.webp",
     link: "https://youtu.be/474nEr0zblM",
   },
   {
     title: "A Prelude to 'Arrival of the Ethereal'",
-    thumbnail: "/video_3.webp",
+    thumbnail: "/videos/video_3.webp",
     link: "https://youtu.be/4hZMrzO2_XM",
   },
   {
     title: "Rebirth of Mystical Aabheri",
-    thumbnail: "/video_4.webp",
+    thumbnail: "/videos/video_4.webp",
     link: "https://youtu.be/3_SZMp6FCls",
   },
   {
     title: "Theeye",
-    thumbnail: "/video_5.webp",
+    thumbnail: "/videos/video_5.webp",
     link: "https://youtu.be/qpPj3a-7W3s",
   },
   {
     title: "Kaadhal Rojave",
-    thumbnail: "/video_6.webp",
+    thumbnail: "/videos/video_6.webp",
     link: "https://youtu.be/SAGtbF3hHWM",
   },
   {
     title: "Uyirum Neeye",
-    thumbnail: "/video_7.webp",
+    thumbnail: "/videos/video_7.webp",
     link: "https://youtu.be/y09WBbj5I4M",
   },
   {
     title: "Agam Live from the Lockdown!",
-    thumbnail: "/video_8.webp",
+    thumbnail: "/videos/video_8.webp",
     link: "https://youtu.be/yQhiiWMaWk0",
   },
   {
     title: "Thoomani Maadathu",
-    thumbnail: "/video_9.webp",
+    thumbnail: "/videos/video_9.webp",
     link: "https://youtu.be/7xWPmjDwq7M",
   },
   {
     title: "Rangapura Vihaara",
-    thumbnail: "/video_10.webp",
+    thumbnail: "/videos/video_10.webp",
     link: "https://youtu.be/oESni03J8h8",
   },
   {
     title: "Koothu Over Coffee",
-    thumbnail: "/video_11.webp",
+    thumbnail: "/videos/video_11.webp",
     link: "https://youtu.be/BMC5MU6exiw",
   },
   {
     title: "Singapore | The Dream Tour 2018",
-    thumbnail: "/video_12.webp",
+    thumbnail: "/videos/video_12.webp",
     link: "https://youtu.be/yFm2bgC194U",
   },
   {
     title: "The Celestial Nymph",
-    thumbnail: "/video_13.webp",
+    thumbnail: "/videos/video_13.webp",
     link: "https://youtu.be/NTaCZ3ytbn4",
   },
   {
     title: "BTS | A Dream To Remember",
-    thumbnail: "/video_14.webp",
+    thumbnail: "/videos/video_14.webp",
     link: "https://youtu.be/wq1vjmbcca8",
   },
   {
     title: "Mist of Capricorn",
-    thumbnail: "/video_15.webp",
+    thumbnail: "/videos/video_15.webp",
     link: "https://youtu.be/zkvNnRjIhPE",
   },
 
   {
     title: "Onwards and Upwards",
-    thumbnail: "/video_16.webp",
+    thumbnail: "/videos/video_16.webp",
     link: "https://youtu.be/DONOtUx2SVk",
   },
   {
     title: "Rangapura Vihaara unplugged",
-    thumbnail: "/video_17.webp",
+    thumbnail: "/videos/video_17.webp",
     link: "https://youtu.be/h2wEQ3dwG8E",
   },
   {
     title: "Over the horizon",
-    thumbnail: "/video_18.webp",
+    thumbnail: "/videos/video_18.webp",
     link: "https://youtu.be/G7iW2X9AVmQ",
   },
   {
     title: "A R Rahman speaks about Agam",
-    thumbnail: "/video_19.webp",
+    thumbnail: "/videos/video_19.webp",
     link: "https://youtu.be/fazmTGuo1_4",
   },
   {
     title: "Lakshiya Paadhai",
-    thumbnail: "/video_20.webp",
+    thumbnail: "/videos/video_20.webp",
     link: "https://youtu.be/AKocOmyM0NA",
   },
 ];
@@ -132,7 +132,7 @@ const Videos = () => {
               VIDEOS
             </p>
             <p className="uppercase text-[16px] lg:text-[22px] text-center text-white font-normal leading-[137%] tracking-[3px] mt-[5px]">
-              EXPLORE THE AGAM VIDEO LIBRARY!
+              EXPLORE THE AGAM VIDEO LIBRARY
             </p>
           </div>
         </div>

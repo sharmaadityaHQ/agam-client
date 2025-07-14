@@ -37,38 +37,41 @@ const Home = () => {
       </div>
       <div className="flex flex-wrap">
         <Card1
-          image="/agam_news_1.webp"
-          text="AGAM unveils their new album, ‘Arrival of the Ethereal’ at a charity concert in Bengaluru"
+          image="/home/agam_news_1.webp"
+          text="Agam’s New Album Is Getting The Nod from A.R. Rahman, Hariharan and More"
+          timestamp="June 19, 2025"
+          link="/news/agam-arrival-of-the-ethereal-album-interview"
+        />
+        <Card1
+          image="/home/agam_news_2.webp"
+          text="AGAM unveils new album at a charity concert in Bengaluru with Akshaya Patra"
+          timestamp="June 14, 2025"
+          link="/news/agam-unveils-new-album-at-a-charity-concert-in-bengaluru-with-akshaya-patra"
+        />
+        <Card1
+          image="/home/agam_news_3.webp"
+          text="The Carnatic progressive rock band AGAM talks about their new album, ‘Arrival of the Ethereal’"
           timestamp="June 12, 2025"
-          link="https://www.thehindu.com/entertainment/movies/carnatic-progressive-rock-band-agam-talks-about-their-third-studio-album/article69679476.ece"
-        />
-        <Card1
-          image="/agam_news_2.webp"
-          text="AGAM performing at the Music Academy, Chennai for Aikya’s fundraiser"
-          timestamp="March 11, 2024"
-          link="https://www.thehindu.com/entertainment/music/how-agams-music-is-beyond-labels-yet-loved-by-people/article67938504.ece"
-        />
-        <Card1
-          image="/agam_news_3.webp"
-          text="A pool of niche sounds"
-          timestamp="July 13, 2017"
-          link="https://www.thehindu.com/entertainment/music/a-pool-of-niche-sounds/article19270693.ece"
+          link="/news/carnatic-progressive-rock-band-agam-talks-about-their-third-studio-album"
         />
       </div>
       <div className="relative flex flex-col h-[100vh] items-center justify-center">
-        <VideoPlayer videoUrl="/agam_home_video.mp4" className="absolute" />
+        <VideoPlayer
+          videoUrl="/home/agam_home_video.mp4"
+          className="absolute"
+        />
         <div className="flex flex-col w-[85%] items-center z-[1]">
           <p className="text-[45px] text-white text-center font-semibold leading-[45px] tracking-[6px] lg:text-[100px] lg:leading-[100px] lg:tracking-[8px]">
             AGAM
           </p>
           <p className="text-[23px] text-white text-center font-medium leading-[23px] tracking-[6.5px] mt-[35px] lg:text-[45px] lg:leading-[45px] lg:tracking-[8px]">
-            THE SILENCE THAT REMAINS
+            WALK OF THE BRIDE
           </p>
           <p className="text-[16px] text-white text-center font-normal leading-[22.6px] tracking-[4px] mt-[20px] lg:text-[30px] lg:leading-[30px] lg:tracking-[6.5px]">
             NEW MUSIC VIDEO OUT NOW
           </p>
           <Button className="mt-[30px] lg:text-[20px] lg:px-[30px] lg:py-[20px]">
-            <Link href="https://youtu.be/0ck1e1F8qU0" target="_blank">
+            <Link href="https://youtu.be/RsY1uHr3Ztc" target="_blank">
               WATCH NOW
             </Link>
           </Button>
@@ -117,42 +120,42 @@ const Home = () => {
       {/* <div className="flex justify-center mt-[10vh]">
         <div className="flex flex-wrap justify-center gap-[50px] max-w-[90%]">
           <Card2
-            image="https://dreamtheater.net/wp-content/uploads/2024/10/DT_Parasomnia_Deluxe_MockupSite.png"
+            image=""
             text="Parasomnia (Deluxe Box Set)"
             cta={{
               text: "BUY",
             }}
           />
           <Card2
-            image="https://dreamtheater.net/wp-content/uploads/2024/10/DT_Parasomnia_Deluxe2_MockupSite.png"
+            image=""
             text="Parasomnia (Deluxe ArtBook)"
             cta={{
               text: "BUY",
             }}
           />
           <Card2
-            image="https://dreamtheater.net/wp-content/uploads/2024/10/DT_Parasomnia_Vinyl1_MockupSite.png"
+            image=""
             text="Parasomnia (Ultra Clear 2LP Vinyl)"
             cta={{
               text: "BUY",
             }}
           />
           <Card2
-            image="https://dreamtheater.net/wp-content/uploads/2024/10/DT_Parasomnia_Vinyl2_MockupSite.png"
+            image=""
             text="Parasomnia (Black 2LP Vinyl)"
             cta={{
               text: "BUY",
             }}
           />
           <Card2
-            image="https://dreamtheater.net/wp-content/uploads/2024/10/DT_Parasomnia_Vinyl3_MockupSite.png"
+            image=""
             text="Parasomnia (Transparent Light Blue and Black Vinyl)"
             cta={{
               text: "BUY",
             }}
           />
           <Card2
-            image="https://dreamtheater.net/wp-content/uploads/2024/10/DreamTheater_Parasomnia_Cover_Embargo_11102024.jpg"
+            image=""
             text="Parasomnia (Digital Album)"
             cta={{
               text: "BUY",

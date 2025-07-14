@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "../components/Header";
+import Header from "../components/header/Header";
 import localFont from "next/font/local";
 
 const myFont = localFont({
-  src: "./avenir-medium.ttf",
+  src: "../fonts/avenir-medium.ttf",
   display: "swap",
 });
 

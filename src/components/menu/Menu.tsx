@@ -25,7 +25,7 @@ const Menu = ({ isOpen, onClose }: MenuProps) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 backdrop-blur-[15px] overflow-hidden z-50">
+    <div className="flex flex-col fixed inset-0 backdrop-blur-[15px] overflow-hidden z-50">
       <div className="flex justify-end p-[25px]">
         <button
           onClick={onClose}
@@ -35,22 +35,29 @@ const Menu = ({ isOpen, onClose }: MenuProps) => {
         </button>
       </div>
 
-      <div className="flex flex-col items-center h-full mt-[50px] lg:mt-[150px]">
+      <div className="flex flex-col items-center justify-center h-full">
         <p className="text-[45px] text-white text-center font-semibold leading-[45px] tracking-[6px] lg:text-[100px] lg:leading-[100px] lg:tracking-[8px]">
           AGAM
         </p>
         <nav className="flex flex-col items-center gap-[25px] mt-[40px]">
           <Link
+            href="/news"
+            onClick={onClose}
+            className="text-white text-[25px] font-medium uppercase tracking-[4px] lg:text-[50px] lg:tracking-[8px]"
+          >
+            News
+          </Link>
+          <Link
             href="/band"
             onClick={onClose}
-            className="text-white text-[27px] font-medium uppercase tracking-[4px] lg:text-[50px] lg:tracking-[8px]"
+            className="text-white text-[25px] font-medium uppercase tracking-[4px] lg:text-[50px] lg:tracking-[8px]"
           >
             Band
           </Link>
           <Link
             href="/videos"
             onClick={onClose}
-            className="text-white text-[27px] font-medium uppercase tracking-[4px] lg:text-[50px] lg:tracking-[8px]"
+            className="text-white text-[25px] font-medium uppercase tracking-[4px] lg:text-[50px] lg:tracking-[8px]"
           >
             Videos
           </Link>
