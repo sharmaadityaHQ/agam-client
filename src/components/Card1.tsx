@@ -42,7 +42,13 @@ const Card1 = ({
             <span className="text-[13px] font-medium text-white leading-[14.4px] tracking-[1.8px] ml-[10px]">
               / READ MORE
             </span>
-            <img src="/arrow_icon.png" className="h-[8px] ml-[8px]" />
+            <Image
+              src="/arrow_icon.png"
+              alt="arrow icon"
+              width={20}
+              height={8}
+              className="h-[8px] ml-[8px]"
+            />
           </div>
         </div>
       </Link>

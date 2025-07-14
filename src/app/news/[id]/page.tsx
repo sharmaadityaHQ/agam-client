@@ -30,7 +30,7 @@ const newsDetails = [
   },
 ];
 
-const NewsDetail = async ({ params }: { params: { id: string } }) => {
+const NewsDetail = async ({ params }: { params: Promise<{ id: string }> }) => {
   const { id } = await params;
   const news = newsDetails.find((news) => news.id === id);
 
@@ -45,7 +45,7 @@ const NewsDetail = async ({ params }: { params: { id: string } }) => {
       <div className="fixed inset-0 bg-[#00000080]" />
       <div className="flex justify-center my-[20vh]">
         <div className="flex flex-col w-[90%] p-[20px] bg-[#00000080] shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] backdrop-blur-[1.5px]">
-          <p className="text-white text-[26px] lg:text-[40px] font-normal leading-[31px] mb-[10px] lg:mb-[40px]">
+          <p className="text-white text-[26px] lg:text-[40px] font-normal leading-[31px] mb-[10px] lg:mb-[40px] lg:leading-[55px]">
             {news?.title}
           </p>
           <p className="text-white/50 text-[14px] lg:text-[18px] uppercase font-semibold leading-[21px] mb-[25px] lg:mb-[60px]">
@@ -53,7 +53,7 @@ const NewsDetail = async ({ params }: { params: { id: string } }) => {
           </p>
           <p
             className="news-content text-white text-[20px] lg:text-[24px] font-normal leading-[31px] lg:leading-[40px]"
-            dangerouslySetInnerHTML={{ __html: news?.content! }}
+            dangerouslySetInnerHTML={{ __html: news?.content ?? "" }}
           />
         </div>
       </div>
