@@ -16,7 +16,7 @@ const HeaderContent = ({ toggleMenu, isMenuOpen }: HeaderContentProps) => (
     <Link href="/">
       <Image
         priority
-        src="/agam_logo.webp"
+        src="/shared/agam_logo.webp"
         alt="agam logo"
         width={55}
         height={55}

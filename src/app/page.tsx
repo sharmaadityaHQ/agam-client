@@ -10,26 +10,24 @@ const Home = () => {
   return (
     <PageContainer>
       <div className="relative flex flex-col h-[100vh] items-center justify-center">
-        <Image
-          priority
-          alt="hero image"
-          src="/agam_hero_image.webp"
-          fill
-          className="object-cover"
+        <VideoPlayer
+          className="absolute"
+          videoUrl="/home/agam_hero_video.webm"
+          posterUrl="/home/agam_hero_video_thumbnail.webp"
         />
         <div className="absolute bg-[#00000080] w-full h-full" />
         <div className="flex flex-col w-[85%] items-center z-[1]">
           <p className="text-[45px] text-white text-center font-semibold leading-[45px] tracking-[6px] lg:text-[100px] lg:leading-[100px] lg:tracking-[8px]">
             AGAM
           </p>
-          <p className="text-[23px] text-white text-center font-medium leading-[23px] tracking-[6.5px] mt-[40px] lg:text-[45px] lg:leading-[45px] lg:tracking-[8px]">
-            ARRIVAL OF THE ETHEREAL
+          <p className="text-[23px] text-white text-center font-medium leading-[30px] tracking-[6.5px] mt-[40px] lg:text-[45px] lg:leading-[45px] lg:tracking-[8px]">
+            WALK OF THE BRIDE
           </p>
           <p className="text-[12px] text-white text-center font-normal leading-[17px] tracking-[5px] mt-[20px] lg:text-[30px] lg:leading-[30px] lg:tracking-[6.5px]">
-            NEW ALBUM OUT NOW
+            NEW MUSIC VIDEO OUT NOW
           </p>
           <Button className="mt-[40px] lg:text-[20px] lg:px-[30px] lg:py-[20px]">
-            <Link href="https://youtu.be/0ck1e1F8qU0" target="_blank">
+            <Link href="https://youtu.be/RsY1uHr3Ztc" target="_blank">
               WATCH NOW
             </Link>
           </Button>
@@ -57,21 +55,22 @@ const Home = () => {
       </div>
       <div className="relative flex flex-col h-[100vh] items-center justify-center">
         <VideoPlayer
-          videoUrl="/home/agam_home_video.mp4"
           className="absolute"
+          videoUrl="/home/agam_home_video.mp4"
+          posterUrl="/home/agam_home_video_thumbnail.webp"
         />
         <div className="flex flex-col w-[85%] items-center z-[1]">
           <p className="text-[45px] text-white text-center font-semibold leading-[45px] tracking-[6px] lg:text-[100px] lg:leading-[100px] lg:tracking-[8px]">
             AGAM
           </p>
-          <p className="text-[23px] text-white text-center font-medium leading-[23px] tracking-[6.5px] mt-[35px] lg:text-[45px] lg:leading-[45px] lg:tracking-[8px]">
-            WALK OF THE BRIDE
+          <p className="text-[23px] text-white text-center font-medium leading-[30px] tracking-[6.5px] mt-[35px] lg:text-[45px] lg:leading-[45px] lg:tracking-[8px]">
+            THE SILENCE THAT REMAINS
           </p>
           <p className="text-[16px] text-white text-center font-normal leading-[22.6px] tracking-[4px] mt-[20px] lg:text-[30px] lg:leading-[30px] lg:tracking-[6.5px]">
             NEW MUSIC VIDEO OUT NOW
           </p>
           <Button className="mt-[30px] lg:text-[20px] lg:px-[30px] lg:py-[20px]">
-            <Link href="https://youtu.be/RsY1uHr3Ztc" target="_blank">
+            <Link href="https://youtu.be/0ck1e1F8qU0" target="_blank">
               WATCH NOW
             </Link>
           </Button>

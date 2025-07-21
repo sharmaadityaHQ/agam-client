@@ -119,7 +119,7 @@ const Menu = ({ isOpen, onClose }: MenuProps) => {
         </div>
 
         <Image
-          src="/agam_logo.webp"
+          src="/shared/agam_logo.webp"
           alt="agam logo"
           width={90}
           height={90}
