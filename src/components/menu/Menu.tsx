@@ -36,28 +36,32 @@ const Menu = ({ isOpen, onClose }: MenuProps) => {
       </div>
 
       <div className="flex flex-col items-center justify-center h-full">
-        <p className="text-[45px] text-white text-center font-semibold leading-[45px] tracking-[6px] lg:text-[100px] lg:leading-[100px] lg:tracking-[8px]">
-          AGAM
-        </p>
-        <nav className="flex flex-col items-center gap-[25px] mt-[40px]">
+        <Image
+          src="/shared/agam_logo_text.webp"
+          alt="AGAM"
+          width={512}
+          height={512}
+          className="max-w-[60%] mt-[-150px] md:mt-[-200px]"
+        />
+        <nav className="flex flex-col items-center gap-[25px] mt-[-50px] md:mt-[-100px]">
           <Link
             href="/news"
             onClick={onClose}
-            className="text-white text-[25px] font-medium uppercase tracking-[4px] lg:text-[50px] lg:tracking-[8px]"
+            className="text-white text-[23px] font-medium uppercase tracking-[4px] lg:text-[46px] lg:tracking-[8px]"
           >
             News
           </Link>
           <Link
             href="/band"
             onClick={onClose}
-            className="text-white text-[25px] font-medium uppercase tracking-[4px] lg:text-[50px] lg:tracking-[8px]"
+            className="text-white text-[23px] font-medium uppercase tracking-[4px] lg:text-[46px] lg:tracking-[8px]"
           >
             Band
           </Link>
           <Link
             href="/videos"
             onClick={onClose}
-            className="text-white text-[25px] font-medium uppercase tracking-[4px] lg:text-[50px] lg:tracking-[8px]"
+            className="text-white text-[23px] font-medium uppercase tracking-[4px] lg:text-[46px] lg:tracking-[8px]"
           >
             Videos
           </Link>

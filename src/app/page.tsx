@@ -17,20 +17,26 @@ const Home = () => {
         />
         <div className="absolute bg-[#00000080] w-full h-full" />
         <div className="flex flex-col w-[85%] items-center z-[1]">
-          <p className="text-[45px] text-white text-center font-semibold leading-[45px] tracking-[6px] lg:text-[100px] lg:leading-[100px] lg:tracking-[8px]">
-            AGAM
-          </p>
-          <p className="text-[23px] text-white text-center font-medium leading-[30px] tracking-[6.5px] mt-[40px] lg:text-[45px] lg:leading-[45px] lg:tracking-[8px]">
-            WALK OF THE BRIDE
-          </p>
-          <p className="text-[12px] text-white text-center font-normal leading-[17px] tracking-[5px] mt-[20px] lg:text-[30px] lg:leading-[30px] lg:tracking-[6.5px]">
-            NEW MUSIC VIDEO OUT NOW
-          </p>
-          <Button className="mt-[40px] lg:text-[20px] lg:px-[30px] lg:py-[20px]">
-            <Link href="https://youtu.be/RsY1uHr3Ztc" target="_blank">
-              WATCH NOW
-            </Link>
-          </Button>
+          <Image
+            src="/shared/agam_logo_text.webp"
+            alt="AGAM"
+            width={512}
+            height={512}
+            className="max-w-[75%]"
+          />
+          <div className="flex flex-col items-center mt-[-100px] md:mt-[-200px]">
+            <p className="text-[23px] text-white text-center font-medium leading-[30px] tracking-[6.5px] mt-[40px] lg:text-[45px] lg:leading-[45px] lg:tracking-[8px]">
+              WALK OF THE BRIDE
+            </p>
+            <p className="text-[12px] text-white text-center font-normal leading-[17px] tracking-[5px] mt-[20px] lg:text-[30px] lg:leading-[30px] lg:tracking-[6.5px]">
+              NEW MUSIC VIDEO OUT NOW
+            </p>
+            <Button className="mt-[40px] lg:text-[20px] lg:px-[30px] lg:py-[20px]">
+              <Link href="https://youtu.be/RsY1uHr3Ztc" target="_blank">
+                WATCH NOW
+              </Link>
+            </Button>
+          </div>
         </div>
       </div>
       <div className="flex flex-wrap">
@@ -60,20 +66,29 @@ const Home = () => {
           posterUrl="/home/agam_home_video_thumbnail.webp"
         />
         <div className="flex flex-col w-[85%] items-center z-[1]">
-          <p className="text-[45px] text-white text-center font-semibold leading-[45px] tracking-[6px] lg:text-[100px] lg:leading-[100px] lg:tracking-[8px]">
+          <Image
+            src="/shared/agam_logo_text.webp"
+            alt="AGAM"
+            width={512}
+            height={512}
+            className="max-w-[75%]"
+          />
+          {/* <p className="text-[45px] text-white text-center font-semibold leading-[45px] tracking-[6px] lg:text-[100px] lg:leading-[100px] lg:tracking-[8px]">
             AGAM
-          </p>
-          <p className="text-[23px] text-white text-center font-medium leading-[30px] tracking-[6.5px] mt-[35px] lg:text-[45px] lg:leading-[45px] lg:tracking-[8px]">
-            THE SILENCE THAT REMAINS
-          </p>
-          <p className="text-[16px] text-white text-center font-normal leading-[22.6px] tracking-[4px] mt-[20px] lg:text-[30px] lg:leading-[30px] lg:tracking-[6.5px]">
-            NEW MUSIC VIDEO OUT NOW
-          </p>
-          <Button className="mt-[30px] lg:text-[20px] lg:px-[30px] lg:py-[20px]">
-            <Link href="https://youtu.be/0ck1e1F8qU0" target="_blank">
-              WATCH NOW
-            </Link>
-          </Button>
+          </p> */}
+          <div className="flex flex-col items-center mt-[-100px] md:mt-[-200px]">
+            <p className="text-[23px] text-white text-center font-medium leading-[30px] tracking-[6.5px] mt-[35px] lg:text-[45px] lg:leading-[45px] lg:tracking-[8px]">
+              THE SILENCE THAT REMAINS
+            </p>
+            <p className="text-[16px] text-white text-center font-normal leading-[22.6px] tracking-[4px] mt-[20px] lg:text-[30px] lg:leading-[30px] lg:tracking-[6.5px]">
+              NEW MUSIC VIDEO OUT NOW
+            </p>
+            <Button className="mt-[30px] lg:text-[20px] lg:px-[30px] lg:py-[20px]">
+              <Link href="https://youtu.be/0ck1e1F8qU0" target="_blank">
+                WATCH NOW
+              </Link>
+            </Button>
+          </div>
         </div>
       </div>
       <div className="flex justify-center mt-[15vh]">
