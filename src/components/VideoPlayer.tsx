@@ -1,16 +1,17 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, VideoHTMLAttributes } from "react";
 
 const VideoPlayer = ({
   videoUrl,
   posterUrl,
   className,
+  ...rest
 }: {
   videoUrl: string;
   posterUrl?: string;
   className?: string;
-}) => {
+} & VideoHTMLAttributes<HTMLVideoElement>) => {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -40,7 +41,11 @@ const VideoPlayer = ({
       autoPlay={false}
       preload="metadata"
       poster={posterUrl}
+      controlsList="nodownload nofullscreen noremoteplayback noplaybackrate"
+      disablePictureInPicture
+      onContextMenu={(e) => e.preventDefault()}
       className={`w-full h-full object-cover ${className}`}
+      {...rest}
     />
   );
 };
