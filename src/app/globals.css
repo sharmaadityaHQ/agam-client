@@ -7,3 +7,20 @@
     text-decoration: underline;
   }
 }
+
+/* Hide unwanted video controls */
+video::-webkit-media-controls-fullscreen-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-picture-in-picture-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-download-button {
+  display: none !important;
+}
+
+video::-webkit-media-controls-cast-button {
+  display: none !important;
+}
