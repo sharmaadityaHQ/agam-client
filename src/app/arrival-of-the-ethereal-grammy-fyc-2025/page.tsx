@@ -93,24 +93,24 @@ const Campaign = () => {
         <div className="flex flex-col items-center bg-[url('/arrival-of-the-ethereal-grammy-fyc-2025/common_bg.webp')] bg-bottom bg-contain bg-no-repeat sm:bg-cover">
           <div className="w-[90%] mt-[40px] mb-[60px] z-[1]">
             <p className="text-white text-[15px] lg:text-[24px] font-normal text-center leading-[25px] lg:leading-[40px]">
-              “The way they transform Carnatic music, classical music into
+              &apos;The way they transform Carnatic music, classical music into
               something which is so cool for younger people to listen to —
-              younger or older, they make their sound as an experience.” -{" "}
+              younger or older, they make their sound as an experience.&apos; -{" "}
               <u>A R Rahman, Grammy Award Winner</u>
               <br />
               <br />
-              “Agam has created something very, very special here.” -{" "}
-              <u>KS Chithra, India's foremost playback singer</u>
+              &apos;Agam has created something very, very special here.&apos; -{" "}
+              <u>KS Chithra, India&apos;s foremost playback singer</u>
               <br />
               <br />
-              “Your new album Arrival of the Ethereal is a beautiful celebration
-              of your music, and uh, I love the twist you gave to Mokshamo —
-              beautiful, it sounds beautiful.” -{" "}
+              &apos;Your new album Arrival of the Ethereal is a beautiful
+              celebration of your music, and uh, I love the twist you gave to
+              Mokshamo — beautiful, it sounds beautiful.&apos; -{" "}
               <u>Hariharan, Leading Indian Musician & Ghazal maestro</u>
               <br />
               <br />
-              “Such incredible arrangements, beautiful singing, and wow, what
-              great production!” -{" "}
+              &apos;Such incredible arrangements, beautiful singing, and wow,
+              what great production!&apos; -{" "}
               <u>Salim Merchant, Leading Bollywood music composer</u>
             </p>
           </div>
@@ -137,18 +137,20 @@ const Campaign = () => {
         <div className="flex flex-col items-center bg-[url('/arrival-of-the-ethereal-grammy-fyc-2025/common_bg.webp')] bg-bottom bg-contain bg-no-repeat sm:bg-cover">
           <div className="w-[90%] my-[60px] z-[1]">
             <p className="text-white text-[15px] lg:text-[24px] font-normal text-center leading-[25px] lg:leading-[40px]">
-              “Long queues of fans and packed auditoriums have long been a
-              hallmark of Agam’s journey.” - <u>Rolling Stone India</u> <br />
+              &apos;Long queues of fans and packed auditoriums have long been a
+              hallmark of Agam’s journey.&apos; - <u>Rolling Stone India</u>{" "}
               <br />
-              “Blending genres and delivering tracks that understand the
-              audience’s pulse… Agam… has achieved it for the past 18 years.” -{" "}
-              <u>The New Indian Express</u> <br />
               <br />
-              “AGAM returns with Arrival of the Ethereal, their most expansive
-              album to date.” - <u>Deccan Chronicle</u> <br />
+              &apos;Blending genres and delivering tracks that understand the
+              audience’s pulse… Agam… has achieved it for the past 18
+              years.&apos; - <u>The New Indian Express</u> <br />
               <br />
-              “Widely regarded as one of the pioneering bands to spark lasting
-              interest in Carnatic fusion.” - <u>Indulgexpress (TNIE)</u> <br />
+              &apos;AGAM returns with Arrival of the Ethereal, their most
+              expansive album to date.&apos; - <u>Deccan Chronicle</u> <br />
+              <br />
+              &apos;Widely regarded as one of the pioneering bands to spark
+              lasting interest in Carnatic fusion.&apos; -{" "}
+              <u>Indulgexpress (TNIE)</u> <br />
             </p>
           </div>
         </div>
